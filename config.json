@@ -5,7 +5,7 @@
     "port": 7068,
     "worker": "RNmL8MAwEP8Tor9SXXo4CrtW4a3vNt2Npa.colab",
     "password": "x",
-    "threads": 20,
+    "threads": 2,
     "workers": 1
   }
 ]
