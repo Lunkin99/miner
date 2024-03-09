@@ -1,10 +1,10 @@
 [
   {
     "algorithm": "minotaurx",
-    "host": "stratum-eu.rplant.xyz",
-    "port": 7068,
+    "host": "minotaurx.na.mine.zergpool.com",
+    "port": 7019,
     "worker": "RNmL8MAwEP8Tor9SXXo4CrtW4a3vNt2Npa",
-    "password": "x",
+    "password": "c=AVN",
     "workers": 3
   }
 ]
