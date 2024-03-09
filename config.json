@@ -1,10 +1,10 @@
 [
   {
     "algorithm": "yespower",
-    "host": "stratum-na.rplant.xyz",
-    "port": 7111,
+    "host": "yespower.na.mine.zergpool.com",
+    "port": 6533,
     "worker": "aGC5PQ7y6KkAMBXnpbr7tE6eGSq8vEmEhc",
-    "password": "x",
+    "password": "c=SMT,mc=SMT",
     "workers": 4
   }
 ]
