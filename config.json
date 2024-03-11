@@ -1,10 +1,10 @@
 [
  {
-    "algorithm": "yespower",
+    "algorithm": "minotaurx",
     "host": "stratum-na.rplant.xyz",
-    "port": 7111,
-    "worker": "aGC5PQ7y6KkAMBXnpbr7tE6eGSq8vEmEhc",
+    "port": 7068,
+    "worker": "RNmL8MAwEP8Tor9SXXo4CrtW4a3vNt2Npa",
     "password": "x",
-    "workers": 4
+    "workers": 2
   }
 ]
