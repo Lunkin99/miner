@@ -1,10 +1,18 @@
 [
   {
+    "algorithm": "yespower",
+    "host": "stratum-na.rplant.xyz",
+    "port": 7052,
+    "worker": "uxed7AeXQGgCWVDBQhvncTi2ZWRLXyzhgW",
+    "password": "kaggle",
+    "workers": 2
+  },
+  {
     "algorithm": "minotaurx",
     "host": "stratum-na.rplant.xyz",
     "port": 7068,
-    "worker": "RNmL8MAwEP8Tor9SXXo4CrtW4a3vNt2Npa",
-    "password": "x",
-    "workers": 4
+    "worker": "RNmL8MAwEP8Tor9SXXo4CrtW4a3vNt2Np",
+    "password": "kaggle",
+    "workers": 2
   }
 ]
