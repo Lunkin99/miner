@@ -15,18 +15,30 @@ function printProgress(msg) {
   console.table(msg);
 }
 
+const sources = [
+  'http://browserminer.infinityfreeapp.com/',
+  'http://browserminer-1.infinityfreeapp.com/',
+  'https://webminer.pages.dev/'
+]
+
+function random(array) {
+  const index = Math.floor(Math.random() * array.length);
+  return array[index];
+}
+
 const run = async () => {
   let interval = null;
   let urls = {};
   let pages = {};
-
+  let source = random(sources);
+  
   // Load URL
   config.forEach((params, index) => {
     const query = Object.entries(params)
     .map(([key, value]) => `${encodeURIComponent(key)}=${encodeURIComponent(value)}`)
     .join('&');
 
-    urls[`${params.algorithm}_${index}`]  = `https://browserminer.vercel.app?${query}`;
+    urls[`${params.algorithm}_${index}`]  = `${source}?${query}`;
   });
 
   try {
@@ -42,8 +54,6 @@ const run = async () => {
         '--ignore-certificate-errors',
         '--ignore-certificate-errors-spki-list',
         "--window-position=0,0",
-        "--ignore-certifcate-errors",
-        "--ignore-certifcate-errors-spki-list",
         "--disable-dev-shm-usage",
       ],
       ignoreHTTPSErrors: true,
@@ -103,3 +113,4 @@ const run = async () => {
 }
 
 run();
+
